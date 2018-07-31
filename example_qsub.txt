@@ -1,0 +1,4 @@
+qsub -N testCNVKitCNprep2 -v output_dir='prev_run_7_30_2018_1' -v
+mclust_model='E' -v minjoin='0.25' -v ntrial='10' -v description='Default
+parameters. Cutoff on norminput length 10000000, CNVKit test files 1. Running
+for ALL samples.' runSegmentClustering.sh
